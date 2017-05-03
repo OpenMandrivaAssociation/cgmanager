@@ -1,0 +1,22 @@
+--- cgmanager-0.41/config/init/systemd/cgmanager.service.omv~	2017-05-03 20:35:45.747018289 +0200
++++ cgmanager-0.41/config/init/systemd/cgmanager.service	2017-05-03 20:35:57.384470444 +0200
+@@ -6,7 +6,7 @@ After=local-fs.target
+ 
+ [Service]
+ Type=simple
+-ExecStart=/sbin/cgmanager -m name=systemd
++ExecStart=/usr/sbin/cgmanager -m name=systemd
+ KillMode=process
+ Restart=on-failure
+ 
+--- cgmanager-0.41/config/init/systemd/cgproxy.service.omv~	2017-05-03 20:36:01.704638535 +0200
++++ cgmanager-0.41/config/init/systemd/cgproxy.service	2017-05-03 20:36:06.381820662 +0200
+@@ -5,7 +5,7 @@ After=cgmanager.service
+ 
+ [Service]
+ Type=simple
+-ExecStart=/sbin/cgproxy
++ExecStart=/usr/sbin/cgproxy
+ KillMode=process
+ Restart=on-failure
+ 
