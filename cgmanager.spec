@@ -15,6 +15,8 @@ BuildRequires:	docbook-utils
 BuildRequires:  kernel-headers
 BuildRequires:	cap-devel
 BuildRequires:	pkgconfig(libsystemd)
+BuildRequires:	pkgconfig(libnih)
+BuildRequires:	pkgconfig(libnih-dbus)
 Buildrequires:	docbook-dtd30-sgml
 Buildrequires:	docbook2x
 
