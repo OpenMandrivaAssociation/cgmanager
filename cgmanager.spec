@@ -4,7 +4,7 @@
 
 Name:		cgmanager
 Version:	0.41
-Release:	1
+Release:	2
 Summary:	CGroup manager for LXC containers
 URL:		http://linuxcontainers.org/cgmanager/
 Source0:	http://linuxcontainers.org/downloads/cgmanager/%{name}-%{version}.tar.gz
