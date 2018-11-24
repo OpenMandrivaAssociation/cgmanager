@@ -20,6 +20,7 @@ BuildRequires:	pkgconfig(libnih-dbus)
 Buildrequires:	docbook-dtd30-sgml
 Buildrequires:	docbook2x
 BuildRequires:	pkgconfig(dbus-1)
+BuildRequires:	pam-devel
 
 %description
 CGManager is a central privileged daemon that manages all your cgroups for you
