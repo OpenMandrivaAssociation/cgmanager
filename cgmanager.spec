@@ -53,6 +53,8 @@ sed -i -e 's,-Werror,,g' configure*
 autoreconf -fi
 
 %build
+export CC=gcc
+export CXX=g++
 %configure \
 		--with-init-script=systemd
 
