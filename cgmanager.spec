@@ -3,8 +3,8 @@
 %define develname %mklibname cgmanager -d
 
 Name:		cgmanager
-Version:	0.41
-Release:	2
+Version:	0.42
+Release:	1
 Summary:	CGroup manager for LXC containers
 URL:		http://linuxcontainers.org/cgmanager/
 Source0:	http://linuxcontainers.org/downloads/cgmanager/%{name}-%{version}.tar.gz
@@ -12,7 +12,7 @@ Patch0:		cgmanager-0.41-fix-systemd-services.patch
 Group:		System/Kernel and hardware
 License:	LGPLv2.1+, parts GPLv2
 BuildRequires:	docbook-utils
-BuildRequires:  kernel-headers
+BuildRequires:  kernel-release-headers
 BuildRequires:	cap-devel
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(libnih)
