@@ -15,6 +15,7 @@ BuildRequires:	docbook-utils
 BuildRequires:  kernel-release-headers
 BuildRequires:	cap-devel
 BuildRequires:	dbus-devel
+BuildRequires:	pam-devel
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(libnih)
 BuildRequires:	pkgconfig(libnih-dbus)
