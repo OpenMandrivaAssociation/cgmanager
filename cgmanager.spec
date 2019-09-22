@@ -14,6 +14,7 @@ License:	LGPLv2.1+, parts GPLv2
 BuildRequires:	docbook-utils
 BuildRequires:  kernel-release-headers
 BuildRequires:	cap-devel
+BuildRequires:	dbus-devel
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(libnih)
 BuildRequires:	pkgconfig(libnih-dbus)
