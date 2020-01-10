@@ -45,7 +45,7 @@ Developement files for the Linux Kernel Containers.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 # Clang spews a few more warnings than gcc...
 sed -i -e 's,-Werror,,g' configure*
