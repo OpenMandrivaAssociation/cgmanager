@@ -6,7 +6,7 @@ Name:		cgmanager
 Version:	0.42
 Release:	1
 Summary:	CGroup manager for LXC containers
-URL:		http://linuxcontainers.org/cgmanager/
+URL:		https://linuxcontainers.org/cgmanager/
 Source0:	http://linuxcontainers.org/downloads/cgmanager/%{name}-%{version}.tar.gz
 Patch0:		cgmanager-0.41-fix-systemd-services.patch
 Group:		System/Kernel and hardware
