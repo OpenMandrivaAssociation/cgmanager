@@ -11,6 +11,11 @@ Source0:	http://linuxcontainers.org/downloads/cgmanager/%{name}-%{version}.tar.g
 Patch0:		cgmanager-0.41-fix-systemd-services.patch
 Group:		System/Kernel and hardware
 License:	LGPLv2.1+, parts GPLv2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	docbook-utils
 BuildRequires:  kernel-release-headers
 BuildRequires:	cap-devel
